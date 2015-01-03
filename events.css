@@ -34,7 +34,7 @@
 			min-height:15%;
 			overflow:hidden;
 		}
-/*		.logo {
+ 		.logo {
 			font-family:'Oswald', sans-serif;
 			weight:bold;
 			font-size:48px;
@@ -51,6 +51,7 @@
 		.yellow-text {
 			color:#ffff66;
 		}
+/*
 		.beach {
 			background-color: #ffffcc;
 			background-image: url("sandtexture2.png");
