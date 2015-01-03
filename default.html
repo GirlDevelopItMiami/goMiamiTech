@@ -1,164 +1,180 @@
-<!doctype html>
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
 <head>
-	<title>GoMiamiTech.org</title>
-	<style>
-		.building {
-			background-color:#ffccff; 
-			color:#333; 
-			margin:0 2%; 
-			display:inline-block; 
-			vertical-align: bottom;
-			border-radius:4px;
-			
-			
-		}
-		.small-building	
-		{ 
-			width: 20%;
-		}
-		.medium-building {
-			width:45%;
-		}
-		.large-building { 
-			width:70%;
-		}
-		.main-area {
-			background-color:#99ccff;
-			padding-top:50px;
-			padding-bottom:0;
-			overflow:hidden;
-			vertical-align:bottom;
-			height:60%;
-		}
-		.top-banner{
-			background-color:#333;
-			width:100%;
-			min-height:15%;
-			overflow:hidden;
-		}
-		.logo {
-			font-family:'Oswald', sans-serif;
-			weight:bold;
-			font-size:48px;
-			float:left;
-			padding-left:15px;
-		}
-		.orange-text {
-			color:#ff9933;
-		}
-		.blue-text {
-			color:#6699ff;
-		}
-		
-		.yellow-text {
-			color:#ffff66;
-		}
-		.beach {
-			background-color: #ffffcc;
-			background-image: url("sandtexture2.png");
-			width:100%;
-			min-height:15%;
-			padding-left:20px;
-			
-		}
-		.youtube {
-		text-align:center;
-		}
-		
-		nav {
-			float:right;
-			margin-right:20px;
-		}
-		nav ul {
-			background-image: url("menubg.png");
-			background-repeat:repeat-x;
-			background-position:center;
-			overflow:hidden;
-			margin:0;
-			padding:0;
-			
-		}
-		nav ul li {
-			display:inline-block;
-			background-image: url("menubutton.png");
-			background-repeat:no-repeat;
-			background-position:center;
-			padding-left:15px;
-			padding-right:15px;
-			padding-top:55px;
-			text-align:center;
-			font-family: 'Open Sans Condensed', sans-serif;
-			font-weight:bold;
-		}
-		
-		nav ul li a {
-			color:#ff9933;
-			text-decoration:none;
-		}
-		
-		nav ul li.selected {
-			background-image: url("menubuttonselect.png");
-		}
-	</style>
-	<link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+  <!-- title and meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1.0" name="viewport">
+  <meta content="description" name="In this tutorial, we take a look at a beautiful parallax scrolling effect in the simplest of ways, with stationary backgrounds and scrolling content.">
+
+  <title>Go Miami Tech | Emerging technology portal for the US, Latin America, and the World!</title>
+
+  <!-- css -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
+  <link rel="stylesheet" href="homepage/css/base.css">
+  <link rel="stylesheet" href="homepage/css/style.css">
+
+  <!-- js -->
+  <script src="homepage/js/modernizr.js"></script>
 </head>
 
 <body>
-	<header class="top-banner">
-		<section class="logo">
-			<span class="blue-text">go</span><span class="orange-text">Tech</span><span class="yellow-text">Miami</span>
-		</section>
 
-		<nav>
-			<ul>
-				<li class="selected"><a href="link.html">News</a></li>
-				<li><a href="link.html">Events</a></li>
-				<li><a href="link.html">Government</a></li>
-				<li><a href="link.html">VC</a></li>
-				<li><a href="link.html">Education</a></li>
-				<li><a href="link.html">Living in Miami</a></li>
-				<li><a href="link.html">Pledge</a></li>
-			</ul>
-		</nav>
+<div class="wrapper">
 
-	</header>
+  <div class="info-bar">
+    <div class="container">
+      <a class="icon cmn-tut" data-title="Back To Tutorial" href="http://goMiamiTech.com/?p=718"></a>
+      <a class="icon cmn-prev" data-title="Pevious Demo - Revealing Content Overlays With CSS3 Transitions" href="http://goMiamiTech.com/tutorial-demos/revealing-content-overlays/"></a>
+      <!-- <a class="icon cmn-next" data-title="Next Demo - " href="http://goMiamiTech.com/tutorial-demos/..."></a> -->
+      <a class="icon cmn-download" data-title="Download Source" href="http://goMiamiTech.com/tutorial-demos/simple-parallax-effect/simple-parallax-effect-source.zip"></a>
+      <a class="icon cmn-archive" data-title="Tutorial Archives" href="http://goMiamiTech.com/category/tutorials/"></a>
+    </div>
+  </div>
 
-	<!-- -->
-	<div class="main-area">
-		<section class="building-one small-building building">
-			<h1>News</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat dolor nec metus interdum, ac bibendum odio lacinia. Vestibulum pellentesque velit tellus, pharetra blandit dui porta sit amet. Fusce iaculis ante vel libero rutrum elementum. Pellentesque accumsan tristique enim, eget interdum felis gravida eget. Aenean cursus leo sit amet porttitor pellentesque. Phasellus quis posuere massa. Phasellus ultrices quam tortor, nec pulvinar nulla rhoncus eget. Proin rutrum urna turpis, vel consectetur dolor suscipit ac. Donec egestas finibus mollis. Aenean et viverra magna. Donec posuere libero libero, sed malesuada ipsum aliquam et. Donec gravida dui ut enim blandit vulputate. Fusce accumsan nunc ac nisl tempus, non rhoncus magna blandit. Aliquam aliquet faucibus ex, vel dignissim est consequat in. Ut lacinia nulla non gravida semper. Maecenas luctus ipsum a tortor hendrerit, a finibus dolor tempus.<p>
-		</section>
+  <main>
+      
+      <section class="module parallax parallax-1">
+        <div class="container">
+          <h1>goMiamiTech</h1>
+        </div>
+      </section>
 
-		<section class="building-two medium-building building">
-			<h1>Tech Spotlight</h1>
-			<section class="youtube">
-				<iframe width="560" height="315" src="http://www.youtube.com/embed/jtUoiXrNa-A" frameborder="0" allowfullscreen></iframe>
-				</section>
-				<section class="description">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat dolor nec metus interdum, ac bibendum odio lacinia. Vestibulum pellentesque velit tellus, pharetra blandit dui porta sit amet. Fusce iaculis ante vel libero rutrum elementum. Pellentesque accumsan tristique enim, eget interdum felis gravida eget. Aenean cursus leo sit amet porttitor pellentesque. Phasellus quis posuere massa. Phasellus ultrices quam tortor, nec pulvinar nulla rhoncus eget. Proin rutrum urna turpis, vel consectetur dolor suscipit ac. Donec egestas finibus mollis. Aenean et viverra magna. Donec posuere libero libero, sed malesuada ipsum aliquam et. Donec gravida dui ut enim blandit vulputate. Fusce accumsan nunc ac nisl tempus, non rhoncus magna blandit. Aliquam aliquet faucibus ex, vel dignissim est consequat in. Ut lacinia nulla non gravida semper. Maecenas luctus ipsum a tortor hendrerit, a finibus dolor tempus.</p>
-			</section>
-		</section>
+      <section class="module content">
+        <div class="container">
+          <h2>Miami is a growing technology hub</h2>
+          <p>Emerging technology portal for the US, Latin America, and the World!  The technology ecosystem in Miami includes amazing code schools, tech startups, accelerators, incubators, coworking spaces, large enterprise IT shops, and an exciting tech community of with multiple events and meetings per week.</p>
+        </div>
+      </section>
 
-		<section class="building-three small-building building">
-			<h1>Building #3</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat dolor nec metus interdum, ac bibendum odio lacinia. Vestibulum pellentesque velit tellus, pharetra blandit dui porta sit amet. Fusce iaculis ante vel libero rutrum elementum. Pellentesque accumsan tristique enim, eget interdum felis gravida eget. Aenean cursus leo sit amet porttitor pellentesque. Phasellus quis posuere massa. Phasellus ultrices quam tortor, nec pulvinar nulla rhoncus eget. Proin rutrum urna turpis, vel consectetur dolor suscipit ac. Donec egestas finibus mollis. Aenean et viverra magna. Donec posuere libero libero, sed malesuada ipsum aliquam et. Donec gravida dui ut enim blandit vulputate.</p>
-		</section>
+      <section class="module parallax parallax-1">
+        <div class="container">
+          <h1>Enterprise IT Shops</h1>
+        </div>
+      </section>
 
-		<!--
-		<section class="building-four large-building building">
+      <section class="module content">
+        <div class="container">
+          <h2>Lorem Ipsum Dolor</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta cum distinctio eum asperiores rem enim fugit eaque voluptas est laboriosam in repudiandae architecto placeat, illum atque quasi explicabo, culpa, molestias!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptas, aperiam quae provident, recusandae rem quis. Ut quaerat, quasi iste voluptate et dolorem atque sed neque voluptates, molestias dolor enim!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam odit tempore, quibusdam impedit deserunt. Natus quisquam, facilis numquam, molestias nesciunt modi, at debitis maxime sunt et quo quas labore perferendis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde delectus laborum doloremque recusandae, debitis maxime a! Nihil distinctio ex, cumque tempore ea voluptas omnis odit, quaerat natus nam excepturi corporis!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eius harum atque unde nihil aut quam provident sunt, iste error vitae suscipit dolores cupiditate totam, eum quae alias! Dicta, nisi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate beatae impedit officia quis odit rerum sequi, explicabo commodi illum suscipit, tempore eum doloremque quae obcaecati tempora quidem neque sapiente modi?</p>
+        </div>
+      </section>
 
-		</section>
+      <section class="module parallax parallax-2">
+        <div class="container">
+          <h1>Incubators<br>Accelerators<br>Co-Working Spaces</h1>
+        </div>
+      </section>
 
-		<section class="building-five small-building building">
+      <section class="module content">
+        <div class="container">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta cum distinctio eum asperiores rem enim fugit eaque voluptas est laboriosam in repudiandae architecto placeat, illum atque quasi explicabo, culpa, molestias!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptas, aperiam quae provident, recusandae rem quis. Ut quaerat, quasi iste voluptate et dolorem atque sed neque voluptates, molestias dolor enim!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam odit tempore, quibusdam impedit deserunt. Natus quisquam, facilis numquam, molestias nesciunt modi, at debitis maxime sunt et quo quas labore perferendis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde delectus laborum doloremque recusandae, debitis maxime a! Nihil distinctio ex, cumque tempore ea voluptas omnis odit, quaerat natus nam excepturi corporis!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eius harum atque unde nihil aut quam provident sunt, iste error vitae suscipit dolores cupiditate totam, eum quae alias! Dicta, nisi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate beatae impedit officia quis odit rerum sequi, explicabo commodi illum suscipit, tempore eum doloremque quae obcaecati tempora quidem neque sapiente modi?</p>
+        </div>
+      </section>
 
-		</section> -->
-	</div>
+      <section class="module parallax parallax-3">
+        <div class="container">
+          <h1>Code Schools</h1>
+        </div>
+      </section>
 
-	<footer class="beach">
-		placeholder text
-	</footer>
+      <section class="module content">
+        <div class="container">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta cum distinctio eum asperiores rem enim fugit eaque voluptas est laboriosam in repudiandae architecto placeat, illum atque quasi explicabo, culpa, molestias!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptas, aperiam quae provident, recusandae rem quis. Ut quaerat, quasi iste voluptate et dolorem atque sed neque voluptates, molestias dolor enim!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam odit tempore, quibusdam impedit deserunt. Natus quisquam, facilis numquam, molestias nesciunt modi, at debitis maxime sunt et quo quas labore perferendis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde delectus laborum doloremque recusandae, debitis maxime a! Nihil distinctio ex, cumque tempore ea voluptas omnis odit, quaerat natus nam excepturi corporis!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eius harum atque unde nihil aut quam provident sunt, iste error vitae suscipit dolores cupiditate totam, eum quae alias! Dicta, nisi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate beatae impedit officia quis odit rerum sequi, explicabo commodi illum suscipit, tempore eum doloremque quae obcaecati tempora quidem neque sapiente modi?</p>
+        </div>
+      </section>
+
+      <section class="module parallax parallax-4">
+        <div class="container">
+          <h1>Tech Startups</h1>
+        </div>
+      </section>
+
+      <section class="module content">
+        <div class="container">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta cum distinctio eum asperiores rem enim fugit eaque voluptas est laboriosam in repudiandae architecto placeat, illum atque quasi explicabo, culpa, molestias!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptas, aperiam quae provident, recusandae rem quis. Ut quaerat, quasi iste voluptate et dolorem atque sed neque voluptates, molestias dolor enim!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam odit tempore, quibusdam impedit deserunt. Natus quisquam, facilis numquam, molestias nesciunt modi, at debitis maxime sunt et quo quas labore perferendis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde delectus laborum doloremque recusandae, debitis maxime a! Nihil distinctio ex, cumque tempore ea voluptas omnis odit, quaerat natus nam excepturi corporis!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eius harum atque unde nihil aut quam provident sunt, iste error vitae suscipit dolores cupiditate totam, eum quae alias! Dicta, nisi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate beatae impedit officia quis odit rerum sequi, explicabo commodi illum suscipit, tempore eum doloremque quae obcaecati tempora quidem neque sapiente modi?</p>
+        </div>
+      </section>
+
+      <section class="module parallax parallax-5">
+        <div class="container">
+          <h1>Tech Events</h1>
+        </div>
+      </section>
+
+      <section class="module content">
+        <div class="container">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta cum distinctio eum asperiores rem enim fugit eaque voluptas est laboriosam in repudiandae architecto placeat, illum atque quasi explicabo, culpa, molestias!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptas, aperiam quae provident, recusandae rem quis. Ut quaerat, quasi iste voluptate et dolorem atque sed neque voluptates, molestias dolor enim!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam odit tempore, quibusdam impedit deserunt. Natus quisquam, facilis numquam, molestias nesciunt modi, at debitis maxime sunt et quo quas labore perferendis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde delectus laborum doloremque recusandae, debitis maxime a! Nihil distinctio ex, cumque tempore ea voluptas omnis odit, quaerat natus nam excepturi corporis!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eius harum atque unde nihil aut quam provident sunt, iste error vitae suscipit dolores cupiditate totam, eum quae alias! Dicta, nisi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate beatae impedit officia quis odit rerum sequi, explicabo commodi illum suscipit, tempore eum doloremque quae obcaecati tempora quidem neque sapiente modi?</p>
+        </div>
+      </section>
+
+     
+  </main><!-- /main -->
+
+  <footer>
+    <div class="container">
+      <div class="asides clearfix">
+        <aside>
+          <nav>
+            <ul>
+              <li><a href="http://goMiamiTech.com/">Welcome</a></li>
+              <li><a href="http://goMiamiTech.com/category/tutorials">Tutorials</a></li>
+              <li><a href="http://goMiamiTech.com/category/snippets">Snippets</a></li>
+              <li><a href="http://goMiamiTech.com/category/articles">Articles</a></li>
+              <li><a href="http://goMiamiTech.com/category/resources">Resources</a></li>
+            </ul>
+          </nav>
+        </aside>
+        <aside>
+          <nav>
+            <ul>
+              <li><a href="http://goMiamiTech.com/archive/">Archive</a></li>
+              <li><a href="http://goMiamiTech.com/about">About</a></li>
+              <li><a href="http://goMiamiTech.com/contact">Contact</a></li>
+              <li><a href="http://goMiamiTech.com/subscribe">Subscribe</a></li>
+            </ul>
+          </nav>
+        </aside>
+      </div>
+      <div class="copyright">
+        <small>
+          &copy; 2014 Girl Develop It<br><a href="http://www.gdimiami.com">Girl Develop It</a>
+        </small>
+      </div>
+    </div>
+  </footer><!-- /footer -->
+  
+</div><!-- /#wrapper -->
+
+<!-- ads -->
+<script src="homepage/js/fusionad.js"></script>
+
+<!-- analytics -->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-341-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
 </body>
-
 </html>
