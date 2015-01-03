@@ -1,0 +1,29 @@
+body {
+	font-family: "Arial";
+
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: "Arial";
+}
+
+h2 {
+
+}
+
+p {
+    font-family: "Arial";
+    font-size: 20px;
+    text-align: left; 
+}
+
+.topcenter {
+    font-family: "Arial";
+    font-size: 20px;
+    text-align: center; 
+    width: 620px;
+    margin: auto;
+}
+
