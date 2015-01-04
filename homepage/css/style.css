@@ -10,7 +10,6 @@ section.module h2 {
   font-size: 30px;
 }
 section.module p {
-  margin-bottom: 40px;
   font-size: 16px;
   font-weight: 300;
 }
@@ -49,13 +48,41 @@ section.module.parallax-3 {
   background-image: url("../img/demo/_small/3.jpg");
 }
 section.module.parallax-4 {
-  background-image: url("../img/demo/_small/1.jpg");
+  background-image: url("../img/demo/_small/4.jpg");
 }
 section.module.parallax-5 {
-  background-image: url("../img/demo/_small/2.jpg");
+  background-image: url("../img/demo/_small/5.jpg");
 }
 section.module.parallax-6 {
-  background-image: url("../img/demo/_small/3.jpg");
+  background-image: url("../img/demo/_small/6.jpg");
+}
+
+
+section.module.parallax-1 h1{
+    font-size: 42px;
+    line-height: 50px;
+    text-align: left;
+    width: 645px;
+    padding-top: 30px;
+}
+section.module.parallax-2 h1{
+    font-size: 28px;
+}
+section.module.parallax-3 h1{
+    font-size: 42px;
+    line-height: 60px;
+    text-align: right;
+}
+section.module.parallax-4 h1{
+    font-size: 42px;
+}
+section.module.parallax-5 h1{
+    font-size: 42px;
+    line-height: 90px;
+    padding-top: 25px;
+}
+section.module.parallax-6 h1{
+    font-size: 42px;
 }
 
 @media all and (min-width: 600px) {
@@ -66,11 +93,63 @@ section.module.parallax-6 {
     font-size: 20px;
   }
   section.module.parallax h1 {
-    font-size: 96px;
+    font-size: 80px;
   }
+
+  section.module.parallax-1 h1{
+      font-size: 62px;
+      line-height: 90px;
+  }
+  section.module.parallax-2 h1{
+      font-size: 48px;
+  }
+  section.module.parallax-3 h1{
+      font-size: 52px;
+      line-height: 60px;
+  }
+  section.module.parallax-4 h1{
+      font-size: 100px;
+  }
+  section.module.parallax-5 h1{
+      line-height: 90px;
+  }
+  section.module.parallax-6 h1{
+      font-size: 100px;
+  }
+
 }
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
-    font-size: 160px;
+    font-size: 100px;
   }
+  section.module.parallax-1 h1{
+      font-size: 82px;
+      line-height: 90px;
+  }
+  section.module.parallax-2 h1{
+      font-size: 68px;
+  }
+  section.module.parallax-3 h1{
+      font-size: 60px;
+      line-height: 80px;
+  }
+  section.module.parallax-4 h1{
+      font-size: 100px;
+  }
+  section.module.parallax-5 h1{
+      line-height: 90px;
+  }
+  section.module.parallax-6 h1{
+      font-size: 100px;
+  }
+}
+.logosection {
+  padding: 30px 20px;
+  overflow: auto;
+  height: 264px;
+  white-space: nowrap;
+}
+.logosection .container {
+  max-width: none;
+
 }

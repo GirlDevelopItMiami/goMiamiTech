@@ -12,8 +12,11 @@
   weight:bold;
   font-size:48px;
   float:left;
-  padding-left:15px;
-  margin-left:-10px !important;
+  padding: 15px 0 0 0 !important;
+  margin: 0 0 0 10px !important;
+  display: inherit !important;
+  width: 30%;
+  background-color: transparent;
 }
 .orange-text {
   color:#ff9933;
