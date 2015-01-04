@@ -1,0 +1,63 @@
+/* Header styles */
+
+
+.top-banner{
+  background-color:#333;
+  width:100%;
+  min-height:15%;
+  overflow:hidden;
+}
+.logo {
+  font-family:'Oswald', sans-serif;
+  weight:bold;
+  font-size:48px;
+  float:left;
+  padding-left:15px;
+  margin-left:-10px !important;
+}
+.orange-text {
+  color:#ff9933;
+}
+.blue-text {
+  color:#6699ff;
+}
+
+.yellow-text {
+  color:#ffff66;
+}
+
+#mainmenu {
+  float:right;
+  margin-right:20px;
+  margin-bottom: 10px;
+}
+#mainmenu ul {
+  background-image: url("http://www.gomiamitech.com/homepage/img/menubg.png");
+  background-repeat:repeat-x;
+  background-position:center;
+  overflow:hidden;
+  margin:0;
+  padding:0;
+  
+}
+#mainmenu ul li {
+  display:inline-block;
+  background-image: url("http://www.gomiamitech.com/homepage/img/menubutton.png");
+  background-repeat:no-repeat;
+  background-position:center;
+  padding-left:15px;
+  padding-right:15px;
+  padding-top:55px;
+  text-align:center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight:bold;
+}
+
+#mainmenu ul li a {
+  color:#ff9933;
+  text-decoration:none;
+}
+
+#mainmenu ul li.selected {
+  background-image: url("http://www.gomiamitech.com/homepage/img/menubuttonselect.png");
+}
