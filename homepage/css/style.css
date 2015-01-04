@@ -151,5 +151,7 @@ section.module.parallax-6 h1{
 }
 .logosection .container {
   max-width: none;
-
+}
+.logosection img {
+  padding: 0 30px;  
 }
